@@ -1,2 +1,2 @@
 # ECS-30
-These are my submitted programs for the course 'ECS 30' at the University of California, Davis. 
+Course: ECS 30  Time Span: September 2017 - December 2017

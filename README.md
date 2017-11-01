@@ -1,2 +1,6 @@
 # ECS-30
-Course: ECS 30  Time Span: September 2017 - December 2017
+Course: ECS 30  <br />
+Quarter: 1 <br />
+Time Span: September - Decemeber
+Year: 2017 <br />
+Type: Homework Submissions

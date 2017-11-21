@@ -1,17 +1,7 @@
-/*Homework 2:
- One question I get asked frequently is "What grade do I need to get on my final to get an X in the class?" For this assignment you will be writing a program to answer that question. You should ask the user for the following in this order
-	.	The letter grade you want to get in the class
-	.	What percent you need to get in the class to get that grade (A value from 0 - 100. It may not be a whole number)
-	.	What percent you currently have in the class
-	.	The weight of the final. (A value from 0 - 100. Again it may not be a whole number)
- After gathering the above information your program should output what percent you need to get on the final to achieve the desired grade.
-  
- Assumptions
-	•	All input is valid
+/*
+This program asks for details about your current grade in class and displays the percent you need to get the final grade of your choice.
+*Assuming all input is valid. 
  */
-
-//Code
-
 #include <stdio.h>
 
 int main(void)

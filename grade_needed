@@ -1,4 +1,8 @@
-// Code for problem 2.2 - Rishabh Sharma, James Simonson
+/*
+This program asks for details regarding your current grade in class and outputs the required percentage you need to 
+achieve on the final to achieve your desired letter-grade.
+*/ 
+
 #include <stdio.h>
 #include <math.h>
 #include <string.h>
@@ -27,7 +31,7 @@ int main() {
         printf("Invalid formatting. Ending program.\n");
         return 0;
     }
-    if(currentGrade == "FUS-ROH_DAH")
+    if (currentGrade == "FUS-ROH_DAH")
     {
         printf("Invalid formatting. Ending program.");
     }
@@ -65,6 +69,6 @@ int main() {
         printf("You cannot score low enough on the final to get a %s in the class.\n", letterGrade);
     else
         printf("You need a grade of at least %.2lf%% on the final to get a %s in the class.\n", neededGrade, letterGrade);
+    
+    return 0;
 }
-
-

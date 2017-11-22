@@ -1,14 +1,15 @@
-// Homework 4.3 submitted by Rishabh Sharma and James Simonson
+/*
+This program checks wheter two input words are anagrams of each other.
+*/ 
 #include <stdio.h>
 #include <stdbool.h>
 #include <string.h>
 #include <ctype.h>
 #include <stdlib.h>
 
-// Function Declaration
 void anagramFinder(char firstword[], char secondword[]);
 int anagramFinderWithIO();
-// Function Definition
+
 void anagramFinder(char firstword[], char secondword[]) {
     char word1[20], word2[20];
     bool anagramChar = false;
@@ -24,7 +25,7 @@ void anagramFinder(char firstword[], char secondword[]) {
         exit(0);
     }
     
-    for (i = 0; i< strlen(word1); i++) {
+    for (i = 0; i < strlen(word1); i++) {
         /* Setting the boolean to a default value of false. It should turn into true and break the loop when the word1 is exhasuted and the first for-loop does not run. */
         anagramChar = false;
         // Converting each letter of the word to uppercase. Can also be lowercase.
@@ -55,8 +56,7 @@ void anagramFinder(char firstword[], char secondword[]) {
 }
 
 int anagramFinderWithIO(void){
-    char string1[20];
-    char string2[20];
+    char string1[20], string2[20];
     
     printf("Please enter the first word: ");
     scanf("%s", string1);
@@ -64,10 +64,10 @@ int anagramFinderWithIO(void){
     scanf("%s", string2);
     
     anagramFinder(string1, string2);
+    
     return 0;
 }
 
-// Main Function
 int main(void) {
     anagramFinderWithIO();
 }

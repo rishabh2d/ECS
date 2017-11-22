@@ -1,2 +1,2 @@
 # Misc. Challenge Problems
-The description of every problem is given at the top of every C-file. <br />
+The description for every problem is given as a commented at the top of every file. <br />

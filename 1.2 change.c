@@ -1,6 +1,7 @@
 /*Homework 1: 
 You are working at a bank. People routinely come in to withdraw money from their accounts but always request that 
 their money be given to them in the fewest number of bills possible. 
+This program asks the user for the amount of money to withdraw and 
 Write a program named change.c that asks the user how much money they would 
 like to withdraw and then tells them how many of which bills they are to receive. 
 You have bills in the following denominations: 1, 5, 10, 20, 50, and 100

@@ -1,12 +1,13 @@
-// Homeowrk 5.1 submitted by Rishabh Sharma and James Simonson
+/*
+This program multiplies two matrices.
+*/
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
 
 int mat_add(int rows, int cols, int i, int j);
 int mat_add(int rows, int cols, int i, int j) {
-    i = 0;
-    j = 0;
+    i = 0; j = 0;
     // dynamically allocating memory for the matrices
     int **matrixA = (int **)malloc(rows * sizeof(int*));
     int **matrixB = (int **)malloc(rows * sizeof(int*));
@@ -24,6 +25,7 @@ int mat_add(int rows, int cols, int i, int j) {
     for (i = 0; i < rows; i++) {
         matrixC[i] = (int *)malloc(cols * sizeof(int*));
     }
+    
     // Matrix A Input
     printf("Enter Matrix A\n");
     for (i = 0; i < rows; ++i) {
@@ -38,7 +40,7 @@ int mat_add(int rows, int cols, int i, int j) {
             scanf("%d", &matrixB[i][j]);
         }
     }
-    // Addition: Matrix A + Matrix B
+    // Addition: Matrix C = Matrix A + Matrix B
     for (i = 0; i < rows; ++i) {
         for (j = 0; j < cols; ++j) {
             matrixC[i][j] = matrixA[i][j] + matrixB[i][j];

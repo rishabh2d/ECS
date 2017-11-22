@@ -1,7 +1,6 @@
 /*
 This program multiplies two complex numbers of the form ai + b.
 */
-//CODE
 
 #include <stdio.h>
 

@@ -1,3 +1,2 @@
-# Misc. Problems
-Year:       2017 (Freshman)<br />
-Quarter:    1 (Fall)<br />
+# Misc. Challenge Problems
+The description of every problem is given at the top of every C-file. <br />

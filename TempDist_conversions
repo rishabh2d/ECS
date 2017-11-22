@@ -1,3 +1,9 @@
+/*
+This program does two types of conversions. 
+1) Temperature conversion between Fahrenheit (F), Celcius (C), Kelvin (K). 
+2) Distance conversion between Inches (I), Yards (Y), Feet (F), Miles (M) 
+*/
+
 #include <stdio.h>
 #include <ctype.h>
 #include <math.h>
@@ -184,7 +190,7 @@ double distance(void) {
     return 0;
 }
 
-int almostmain(void) {
+int conversion(void) {
     char tempdistchoice;
     printf("Pick the type of conversion that you would like to do.\n");
     printf("T or t for temperature\n");
@@ -210,7 +216,7 @@ int almostmain(void) {
 }
 
 int main (void) {
-    almostmain();
+    conversion();
     return 0;
 }
 

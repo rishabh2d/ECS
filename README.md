@@ -1,4 +1,4 @@
-# ECS-30
+# Misc. Problems
 Course:     ECS 30  <br />
 Year:       2017 (Freshman)<br />
 Quarter:    1 (Fall)<br />

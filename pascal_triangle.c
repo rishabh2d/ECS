@@ -1,4 +1,8 @@
-// Homework 4.2 submitted by Rishabh Sharma
+/*
+This program calculates and creates the desired number of levels of a Pascal's triangle. 
+**Not using the combinations approach.
+*/ 
+
 #include <stdio.h>
 
 int pascalsTriangle() {
@@ -23,8 +27,6 @@ int pascalsTriangle() {
     return 0;
 }
 
-int main()
-{
+int main(void) {
     return pascalsTriangle();
-    
 }

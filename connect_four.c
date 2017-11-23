@@ -1,7 +1,7 @@
 /*
- This program runs a game similar to Connect Four.
+ This program runs a game similar to the game 'Connect Four'.
  This program begins by taking the input of the 
- number of rows, number of columns, and the consecutive number of pieces required to win the game.
+ number of rows, number of columns, and the consecutive number of pieces required to win the game!
  Command Line Arguement clone:  ./connectn.out 3 3 3
  */
 

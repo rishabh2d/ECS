@@ -6,11 +6,21 @@ void paint_horizontal(int* start_row, int* start_col, int* end_col, char** canva
     char HORIZONTAL_LINE = '-';
     int j;
 
-    for(j = *start_col; j <= *end_col; j++){
-        if (canvas[*start_row][j] != STAR) {
-            canvas[*start_row][j] = PLUS;
-        } else {
-            canvas[*start_row][j] = HORIZONTAL_LINE;
+    if (*start_col < *end_col) { 
+        for(j = *start_col; j <= *end_col; j++) {
+            if (canvas[*start_row][j] != STAR) {
+             canvas[*start_row][j] = PLUS;
+            } else {
+                canvas[*start_row][j] = HORIZONTAL_LINE;
+            }
+        }
+    } else { 
+         for(j = *end_col; j <= *start_col; j--) {
+            if (canvas[*start_row][j] != STAR) {
+             canvas[*start_row][j] = PLUS;
+            } else {
+                canvas[*start_row][j] = HORIZONTAL_LINE;
+            }
         }
     }
 }
@@ -23,11 +33,21 @@ void paint_vertical(int* start_row, int* start_col, int* end_row, char** canvas)
     char PLUS = '+';
     int i;
 
-    for(i = *start_row; i <= *end_row; i++) {
-        if (canvas[i][*start_col] != STAR) {
-            canvas[i][*start_col] = PLUS;
-        } else {
-            canvas[i][*start_col] = VERTICAL_LINE;
+    if (start_row < end_row) { 
+        for(i = *start_row; i <= *end_row; i++) {
+            if (canvas[i][*start_col] != STAR) {
+                canvas[i][*start_col] = PLUS;
+            } else {
+                canvas[i][*start_col] = VERTICAL_LINE;
+            }
+        }
+    } else { 
+        for(i = *end_row; i <= *start_row; i--) {
+            if (canvas[i][*start_col] != STAR) {
+                canvas[i][*start_col] = PLUS;
+            } else {
+                canvas[i][*start_col] = VERTICAL_LINE;
+            }
         }
     }
 }

@@ -1,3 +1,9 @@
+/*
+This program finds the various permutations of a binary string and prints them respectively. 
+'X' denotes 1
+'O' denotes 0
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>

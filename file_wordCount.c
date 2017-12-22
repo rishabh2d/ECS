@@ -1,4 +1,9 @@
-w#include <stdio.h>
+/* 
+This program reads and returns the number of words in a file. 
+*/
+
+
+#include <stdio.h>
 
 void fileWordCount(char *file_name);
 void fileWordCount(char *file_name) {

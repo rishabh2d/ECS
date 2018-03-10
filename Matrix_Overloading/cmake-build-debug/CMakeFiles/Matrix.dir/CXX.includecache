@@ -1,0 +1,136 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Rishabh 1/Desktop/zzMatrix/ColElementItr.cpp
+ColElementItr.h
+/Users/Rishabh 1/Desktop/zzMatrix/ColElementItr.h
+ColItr.h
+/Users/Rishabh 1/Desktop/zzMatrix/ColItr.h
+Matrix.h
+/Users/Rishabh 1/Desktop/zzMatrix/Matrix.h
+
+/Users/Rishabh 1/Desktop/zzMatrix/ColElementItr.h
+
+/Users/Rishabh 1/Desktop/zzMatrix/ColItr.cpp
+ColItr.h
+/Users/Rishabh 1/Desktop/zzMatrix/ColItr.h
+ColElementItr.h
+/Users/Rishabh 1/Desktop/zzMatrix/ColElementItr.h
+
+/Users/Rishabh 1/Desktop/zzMatrix/ColItr.h
+Matrix.h
+/Users/Rishabh 1/Desktop/zzMatrix/Matrix.h
+ColElementItr.h
+/Users/Rishabh 1/Desktop/zzMatrix/ColElementItr.h
+
+/Users/Rishabh 1/Desktop/zzMatrix/Matrix.cpp
+Matrix.h
+/Users/Rishabh 1/Desktop/zzMatrix/Matrix.h
+MatrixSizeMismatchError.h
+/Users/Rishabh 1/Desktop/zzMatrix/MatrixSizeMismatchError.h
+MatrixInnerDimensionMismatchError.h
+/Users/Rishabh 1/Desktop/zzMatrix/MatrixInnerDimensionMismatchError.h
+MatrixSizeError.h
+/Users/Rishabh 1/Desktop/zzMatrix/MatrixSizeError.h
+vector
+-
+iostream
+-
+sstream
+-
+
+/Users/Rishabh 1/Desktop/zzMatrix/Matrix.h
+vector
+-
+iostream
+-
+RowItr.h
+/Users/Rishabh 1/Desktop/zzMatrix/RowItr.h
+RowElementItr.h
+/Users/Rishabh 1/Desktop/zzMatrix/RowElementItr.h
+ColItr.h
+/Users/Rishabh 1/Desktop/zzMatrix/ColItr.h
+ColElementItr.h
+/Users/Rishabh 1/Desktop/zzMatrix/ColElementItr.h
+
+/Users/Rishabh 1/Desktop/zzMatrix/MatrixError.cpp
+MatrixError.h
+/Users/Rishabh 1/Desktop/zzMatrix/MatrixError.h
+
+/Users/Rishabh 1/Desktop/zzMatrix/MatrixError.h
+exception
+-
+string
+-
+
+/Users/Rishabh 1/Desktop/zzMatrix/MatrixInnerDimensionMismatchError.cpp
+sstream
+-
+MatrixInnerDimensionMismatchError.h
+/Users/Rishabh 1/Desktop/zzMatrix/MatrixInnerDimensionMismatchError.h
+
+/Users/Rishabh 1/Desktop/zzMatrix/MatrixInnerDimensionMismatchError.h
+MatrixError.h
+/Users/Rishabh 1/Desktop/zzMatrix/MatrixError.h
+Matrix.h
+/Users/Rishabh 1/Desktop/zzMatrix/Matrix.h
+
+/Users/Rishabh 1/Desktop/zzMatrix/MatrixSizeError.cpp
+sstream
+-
+MatrixSizeError.h
+/Users/Rishabh 1/Desktop/zzMatrix/MatrixSizeError.h
+
+/Users/Rishabh 1/Desktop/zzMatrix/MatrixSizeError.h
+Matrix.h
+/Users/Rishabh 1/Desktop/zzMatrix/Matrix.h
+MatrixError.h
+/Users/Rishabh 1/Desktop/zzMatrix/MatrixError.h
+
+/Users/Rishabh 1/Desktop/zzMatrix/MatrixSizeMismatchError.cpp
+sstream
+-
+MatrixInnerDimensionMismatchError.h
+/Users/Rishabh 1/Desktop/zzMatrix/MatrixInnerDimensionMismatchError.h
+MatrixSizeMismatchError.h
+/Users/Rishabh 1/Desktop/zzMatrix/MatrixSizeMismatchError.h
+
+/Users/Rishabh 1/Desktop/zzMatrix/MatrixSizeMismatchError.h
+MatrixError.h
+/Users/Rishabh 1/Desktop/zzMatrix/MatrixError.h
+Matrix.h
+/Users/Rishabh 1/Desktop/zzMatrix/Matrix.h
+
+/Users/Rishabh 1/Desktop/zzMatrix/RowElementItr.cpp
+RowElementItr.h
+/Users/Rishabh 1/Desktop/zzMatrix/RowElementItr.h
+Matrix.h
+/Users/Rishabh 1/Desktop/zzMatrix/Matrix.h
+
+/Users/Rishabh 1/Desktop/zzMatrix/RowElementItr.h
+
+/Users/Rishabh 1/Desktop/zzMatrix/RowItr.cpp
+RowItr.h
+/Users/Rishabh 1/Desktop/zzMatrix/RowItr.h
+sstream
+-
+
+/Users/Rishabh 1/Desktop/zzMatrix/RowItr.h
+Matrix.h
+/Users/Rishabh 1/Desktop/zzMatrix/Matrix.h
+RowElementItr.h
+/Users/Rishabh 1/Desktop/zzMatrix/RowElementItr.h
+
+/Users/Rishabh 1/Desktop/zzMatrix/main.cpp
+iostream
+-
+Matrix.h
+/Users/Rishabh 1/Desktop/zzMatrix/Matrix.h
+stdexcept
+/Users/Rishabh 1/Desktop/zzMatrix/stdexcept
+

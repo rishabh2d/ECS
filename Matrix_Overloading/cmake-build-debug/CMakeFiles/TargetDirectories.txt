@@ -1,0 +1,3 @@
+/Users/Rishabh 1/Desktop/zzMatrix/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/Rishabh 1/Desktop/zzMatrix/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/Rishabh 1/Desktop/zzMatrix/cmake-build-debug/CMakeFiles/Matrix.dir
